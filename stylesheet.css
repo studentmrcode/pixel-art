@@ -1,0 +1,28 @@
+#grid,
+#sidePanel {
+    /*puts the grid and side panel side by side*/
+    display: inline-block;
+
+    /*makes the grid and side panel aligned at the top*/
+    vertical-align: top;
+}
+
+#grid {
+    /*removes empty space between the squares*/
+    font-size: 0px;
+
+    /*puts empty space to the right of the grid to separate it from the side panel*/
+    margin-right: 30px;
+}
+
+.square {
+    /*styling for all squares*/
+    /*a dot is used to select all elements with a specified class*/
+    /*display: inline-block puts the squares within a row side by side*/
+    display: inline-block;
+
+    /*gives dimensions and a border to a square*/
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
